@@ -31,6 +31,7 @@ python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py ${SRCROOT}/${T
   button.titleLabel.text = NSLocalizedString(@"可能性测试", nil);
   ~~~
   * 请检查你是否有python3环境，mac系统自带python2.7环境；我使用的是python3.7。
+  * 不要使用压缩包，直接clone项目，然后取项目中的ZPPScript文件。
   
 
 提示：你可以在每一个.m文件需要国际化的字符里这样写：
