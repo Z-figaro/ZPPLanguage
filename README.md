@@ -11,7 +11,7 @@
 
 ~~~
 export PYTHONIOENCODING=UTF-8
-python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py
+python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py ${SRCROOT}/${TARGET_NAME}
 ~~~
 
 3.复制粘贴该展示项目中的文件ZPPScript，只需要把文件放入项目目录，不需要导入Xcode工程
