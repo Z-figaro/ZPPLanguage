@@ -34,7 +34,7 @@ python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py ${SRCROOT}/${T
   * 不要使用压缩包，直接clone项目，然后取项目中的ZPPScript文件。
   
 
-提示：你可以在每一个.m文件需要国际化的字符里这样写：
+## 提示：你可以在每一个.m文件需要国际化的字符里这样写：
 
 ~~~
 button.titleLabel.text = NSLocalizedString(@"可能性测试", “xxxxx.m”);
