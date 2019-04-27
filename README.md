@@ -14,7 +14,7 @@ export PYTHONIOENCODING=UTF-8
 python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py
 ~~~
 
-3.导入该展示项目中的文件ZPPScript，只需要把文件放入项目目录，不需要导入Xcode工程
+3.复制粘贴该展示项目中的文件ZPPScript，只需要把文件放入项目目录，不需要导入Xcode工程
 
 4.需要国际化时，同时按下 command + B 
 
