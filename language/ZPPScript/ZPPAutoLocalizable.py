@@ -288,7 +288,7 @@ def generateLocalizableFiles(filePath ,sourceFilePath):
 					print ('- - dealing with %s'%targetPath)
 					compareWithFilePath(tempFile_Path,targetPath)
 			print ('finish with %s'%sourcename)
-			# os.remove(tempFile_Path)
+			os.remove(tempFile_Path)
 		else:
 			print ('- - genstrings %s error'%sourcename)
 
