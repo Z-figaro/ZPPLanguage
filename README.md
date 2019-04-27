@@ -24,13 +24,13 @@ python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py
 
 * 如果没有生效？
 
-* 请检查你是否使用了系统的国际化宏，代码部分，只会生成使用了国际化宏的对应字符。
-* 请检查你是否有python3环境。
-如：
+  * 请检查你是否使用了系统的国际化宏，代码部分，只会生成使用了国际化宏的对应字符。
+  * 请检查你是否有python3环境。
+  如：
 
-~~~
-button.titleLabel.text = NSLocalizedString(@"可能性测试", nil);
-~~~
+  ~~~
+  button.titleLabel.text = NSLocalizedString(@"可能性测试", nil);
+  ~~~
 
 提示：你可以在每一个。m的第一个需要国际化的字符里这样写：
 
