@@ -11,27 +11,29 @@
 
 ~~~
 export PYTHONIOENCODING=UTF-8
-python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py
+python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py ${SRCROOT}/${TARGET_NAME}
 ~~~
 
-3.导入该展示项目中的文件ZPPScript，只需要把文件放入项目目录，不需要导入Xcode工程
+3.复制粘贴该展示项目中的文件ZPPScript，只需要把文件放入项目目录，不需要导入Xcode工程
 
 4.需要国际化时，同时按下 command + B 
 
-# 完全国际指南 ，我会在以后写在blog里，到时候补充教学。
+## 完全国际化指南，我会在以后写在blog里，到时候补充教学。
 
 ## 疑问解答：
 
-1.没有生效？
+* 如果没有生效？
 
-请检查你是否使用了系统的国际化宏，代码部分，只会生成使用了国际化宏的对应字符。
-如：
+  * 请检查你是否使用了系统的国际化宏，代码部分，只会生成使用了国际化宏的对应字符。
+  如：
 
-~~~
-button.titleLabel.text = NSLocalizedString(@"可能性测试", nil);
-~~~
+  ~~~
+  button.titleLabel.text = NSLocalizedString(@"可能性测试", nil);
+  ~~~
+  * 请检查你是否有python3环境，mac系统自带python2.7环境；我使用的是python3.7。
+  
 
-提示：你可以在每一个。m的第一个需要国际化的字符里这样写：
+提示：你可以在每一个.m文件需要国际化的字符里这样写：
 
 ~~~
 button.titleLabel.text = NSLocalizedString(@"可能性测试", “xxxxx.m”);
