@@ -25,7 +25,7 @@ python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py
 * 如果没有生效？
 
   * 请检查你是否使用了系统的国际化宏，代码部分，只会生成使用了国际化宏的对应字符。
-  * 请检查你是否有python3环境。
+  * 请检查你是否有python3环境，mac系统自带python2.7环境；我使用的是python3.7。
   如：
 
   ~~~
