@@ -18,7 +18,8 @@ python3 ${SRCROOT}/${TARGET_NAME}/ZPPScript/ZPPAutoLocalizable.py ${SRCROOT}/${T
 
 4.需要国际化时，同时按下 command + B 
 
-## 完全国际化指南，我会在以后写在blog里，到时候补充教学。
+## [完全国际化指南](https://juejin.im/post/5cc5095cf265da03576ecd9f)，对国际化有疑问请查看这里。
+。
 
 ## 疑问解答：
 
